@@ -4,7 +4,7 @@ import socketIO from "socket.io-client";
 import "./Chat.css"
 import ReactScrollToBottom from "react-scroll-to-bottom"
 import Message from "../Message/Message"
-const ENDPOINT = "http://localhost:4500"
+const ENDPOINT = "https://cchat.onrender.com/"
 
 const Chat = () => {
 // const messages = [1,2,3,4];
