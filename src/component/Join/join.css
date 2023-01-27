@@ -1,0 +1,33 @@
+.joinPage{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .joinContainer{
+    width: 50%;
+    color: white;
+   text-align: center;
+  }
+  #joinInput{
+    width:25vmax;
+    padding: 1.5vmax;
+    border : none;
+    outline : none;
+    font-size : 1.2vmax;
+    margin : 2vmax;
+    box-sizing: border-box;
+  }
+  .joinBtn{
+    width:25vmax;
+    padding: 1.5vmax;
+    border : none;
+    outline : none;
+    font-size : 1.2vmax;
+    background-color: crimson;
+    box-sizing: border-box;
+    transition : all 0.3s;
+    cursor: pointer;
+  }
